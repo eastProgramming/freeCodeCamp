@@ -1,0 +1,154 @@
+header {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#header-img {
+    width: 400px;
+    height: 100%;
+}
+
+#nav-list {
+    display: block;
+}
+
+#nav-list>li {
+    display: inline-block;
+    margin: 0 0 0 30px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+#hero,
+#features,
+#how-it-works,
+#pricing {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px auto 40px auto;
+    width: 80%;
+    justify-content: space-around;
+    padding: 0;
+}
+
+#hero,
+#features,
+#how-it-works {
+    flex-direction: column;
+}
+
+#hero,
+#how-it-works {
+    align-items: center;
+}
+
+#hero {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+h1,
+h2 {
+    font-size: 30px;
+}
+
+.grid {
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.icon svg {
+    fill: #f6b319;
+}
+
+.product {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+form {
+    display: block;
+    width: 400px;
+    text-align: center;
+}
+
+#email {
+    width: 400px;
+    margin: 20px 0 10px;
+    padding-left: 10px;
+}
+
+.btn,
+#submit {
+    width: 150px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.level {
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: rgb(184, 183, 183);
+    text-transform: uppercase;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+    margin: 20px auto;
+    width: 80%;
+    align-items: center;
+}
+
+footer {
+    display: block;
+    width: 80%;
+    background-color: rgb(184, 183, 183);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer>ul>li {
+    list-style: none;
+    padding: 0 0 0 30px;
+}
+
+footer>span {
+    display: flex;
+    justify-content: flex-end;
+    color: #444;
+    margin-top: 5px;
+}
